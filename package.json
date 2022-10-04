@@ -1,5 +1,23 @@
 {
-  "name": "my-awesome-package",
+  "name": "cicd-tutorial",
   "version": "1.0.0",
-  "author": "Your Name <email@example.com>"
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuanticML/cicd-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuanticML/cicd-tutorial/issues"
+  },
+  "homepage": "https://github.com/QuanticML/cicd-tutorial#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
 }
