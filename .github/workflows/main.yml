@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # checks out the current git commit so we can use it.
+      # read more at https://github.com/orgs/community/discussions/25682
       - uses: actions/checkout@v2
 
       - name: Run a one-line script
